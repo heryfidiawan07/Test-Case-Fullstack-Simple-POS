@@ -1,0 +1,83 @@
+.font-18 {
+    font-size: 18px !important;
+}
+.font-16 {
+    font-size: 16px !important;
+}
+.font-14 {
+    font-size: 14px !important;
+}
+.font-13 {
+    font-size: 13px !important;
+}
+.font-12 {
+    font-size: 12px !important;
+}
+.font-11 {
+    font-size: 11px !important;
+}
+.font-10 {
+    font-size: 10px !important;
+}
+.bold {
+    font-weight: bold !important;
+}
+.italic {
+    font-style: italic !important;
+}
+.minH100 {
+    min-height: 100px;
+}
+.scrolling-wrapper{
+	overflow-x: auto;
+}
+#btn-filter-fixed {
+    z-index: 3;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+.loading-frame {
+    /* background-color: red; */
+    background-color: #fff;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+.loading-frame-long {
+    /* background-color: red; */
+    /* background-color: #fff; */
+    position: absolute;
+    height: 100px;
+    width: 103%;
+    z-index: 2;
+}
+.message-frame {
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+.message-title {
+    margin-top: 20%;
+}
+canvas {
+    min-height: 200px;
+    max-height: 200px;
+}
+.card-right {
+    white-space: nowrap;
+    overflow-x: hidden;
+    max-height: 170px;
+    margin-right: 10px;
+}
+.card-right ul {
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
